@@ -114,6 +114,7 @@ plot(x, Aplusg_d15, '-.',DisplayName='A(+)g_d (K=15)', color=[1,0,0], LineWidth 
 legend
 
 %% Minimal norm solution
+% Feedback from professor: the minimum norm solution is incorrect.
 
 invA = inv(A);
 f_ti = invA*g_d;
